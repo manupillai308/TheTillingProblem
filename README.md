@@ -1,9 +1,9 @@
-Tiling Problem using Divide and Conquer algorithm
+# Tiling Problem using Divide and Conquer algorithm
 Given a n by n board where n is of form 2k where k >= 1 (Basically n is a power of 2 with minimum value as 2). The board has one missing cell (of size 1 x 1). Fill the board using L shaped tiles. A L shaped tile is a 2 x 2 square with one cell of size 1×1 missing.
 
 This problem can be solved using Divide and Conquer. Below is the recursive algorithm.
 
-// n is size of given square, p is location of missing cell
+n is size of given square, p is location of missing cell
 Tile(int n, Point p)
 
 1) Base case: n = 2, A 2 x 2 square with one cell missing is nothing 
